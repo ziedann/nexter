@@ -11,9 +11,7 @@
 
 .navigation {
     &__container {
-        position: fixed;
-        top: 0;
-        left: 0;
+        position: relative;
         width: 8rem;
         height: 100%;
         background-color: $color-primary;
@@ -44,7 +42,7 @@
         border-radius: 0;
         outline: none;
         background-color: transparent;
-        cursor: pointer;
+        // cursor: pointer;
         z-index: 101;
         transition: left .3s ease-in-out;
 
