@@ -12,17 +12,6 @@
     grid-gap: 2rem;
     align-items: center;
 
-
-    @media only screen and (max-width: 59.375em) {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    @media only screen and (max-width: 37.5em) {
-        font-size: $font-display;
-        display: flex;
-        flex-direction: column;
-    }
-
     &__link:link,
     &__link:visited {
         font-size: 1.4rem;
@@ -34,13 +23,6 @@
         padding: 1.5rem;
         display: block;
         transition: all .2s;
-
-
-        @media only screen and (max-width: 37.5em) {
-            font-size: $font-display;
-            display: flex;
-            flex-direction: column;
-        }
     }
 
     &__link:hover,
@@ -57,5 +39,5 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    width: 80%;
+    width: 70%;
 }
